@@ -1,0 +1,9 @@
+{
+    "categories": [
+      { "id": "vocabulary", "name": "Vocabulary" },
+      { "id": "phrases",     "name": "Phrases"     },
+      { "id": "structures",  "name": "Structures"  },
+      { "id": "conectors", "name": "conectors" },
+      { "id": "tenses", "name": "Tenses" }
+    ]
+  }

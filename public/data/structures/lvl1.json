@@ -1,0 +1,50 @@
+[
+  {
+    "sentence": "Hello, my name is Anna.",
+    "tags": [
+      "greeting"
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": [
+          "Hello,",
+          "my",
+          "name",
+          "is",
+          "Anna."
+        ],
+        "correct": "Hello, my name is Anna.",
+        "targets": {
+          "words": [
+            "hello"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "sentence": "Please, don't wake the baby.",
+    "tags": [
+      "routine"
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": [
+          "Please,",
+          "don't",
+          "wake",
+          "the",
+          "baby."
+        ],
+        "correct": "Please, don't wake the baby.",
+        "targets": {
+          "words": [
+            "wake"
+          ]
+        }
+      }
+    ]
+  }
+]

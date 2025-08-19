@@ -1,0 +1,26 @@
+[
+  {
+    "sentence": "The presents were colorful.",
+    "tags": [
+      "party"
+    ],
+    "exercises": [
+      {
+        "type": "reorder",
+        "question": [
+          "The",
+          "presents",
+          "were",
+          "colorful",
+          "."
+        ],
+        "correct": "The presents were colorful.",
+        "targets": {
+          "words": [
+            "presents"
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "tense": "present-simple",
+    "example": "I say hello.",
+    "forms": [
+      "say + hello"
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "question": "I say ____ to my friend.",
+        "options": [
+          "hello",
+          "yellow",
+          "hill",
+          "halo"
+        ],
+        "correct": "hello",
+        "targets": {
+          "words": [
+            "hello"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "tense": "present-simple",
+    "example": "I wake my sister at seven.",
+    "forms": [
+      "wake + object"
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "question": "I ____ my sister at seven.",
+        "options": [
+          "wake",
+          "wakes",
+          "woke"
+        ],
+        "correct": "wake",
+        "targets": {
+          "words": [
+            "wake"
+          ]
+        }
+      }
+    ]
+  }
+]

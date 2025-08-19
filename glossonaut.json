@@ -1,0 +1,56 @@
+{
+  "mode": "append",
+  "defaultLevel": 1,
+  "items": [
+    {
+      "word": "hello",
+      "translations": ["hola"],
+      "exercises": [
+        { "type": "translate", "question": "hello", "options": ["hola","adiós","gracias","por favor"], "correct": "hola", "targets": { "words": ["hello"] }},
+        { "type": "complete", "question": "She said ____ when she saw me.", "options": ["hello","goodbye","please","thanks"], "correct": "hello", "targets": { "words": ["hello"] }}
+      ]
+    },
+    {
+      "phrase": "hello my friend",
+      "translations": ["hola amigo"],
+      "exercises": [
+        { "type": "translate", "question": "hello my friend", "options": ["hola amigo","adiós amigo","gracias amigo","por favor amigo"], "correct": "hola amigo", "targets": { "words": ["hello"] } },
+        { "type": "complete", "question": "__ my friend", "options": ["Hello","Bye","Thanks","Please"], "correct": "Hello", "targets": { "words": ["hello"] }}
+      ]
+    },
+
+    {
+      "sentence": "Hello, my name is Anna.",
+      "tags": ["greeting"],
+      "exercises": [
+        { "type": "reorder", "question": ["Hello,", "my", "name", "is", "Anna."], "correct": "Hello, my name is Anna.", "targets": { "words": ["hello"] }}
+      ]
+    },
+    {
+      "connector": "and",
+      "sentence": "Hello ____ welcome to my home.",
+      "translations": ["y"],
+      "exercises": [
+        { "type": "complete", "question": "Hello ____ welcome to my home.", "options": ["and","but","because","so"], "correct": "and", "targets": { "words": ["and","hello"] }}
+      ]
+    },
+    {
+      "tense": "present-simple",
+      "example": "I say hello.",
+      "forms": ["say + hello"],
+      "exercises": [
+        {
+          "type": "cloze",
+          "question": "I say ____ to my friend.",
+          "options": ["hello", "yellow", "hill", "halo"],
+          "correct": "hello",
+          "targets": {
+            "words": [
+              "hello"
+            ]
+        }
+      }
+      ]
+    }
+  ]
+}

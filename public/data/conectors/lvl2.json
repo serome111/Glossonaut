@@ -1,0 +1,28 @@
+[
+  {
+    "connector": "until",
+    "sentence": "She didn’t open the presents ____ the evening.",
+    "translations": [
+      "hasta que"
+    ],
+    "exercises": [
+      {
+        "type": "complete",
+        "question": "She didn’t open the presents ____ the evening.",
+        "options": [
+          "until",
+          "while",
+          "since",
+          "during"
+        ],
+        "correct": "until",
+        "targets": {
+          "words": [
+            "until",
+            "presents"
+          ]
+        }
+      }
+    ]
+  }
+]

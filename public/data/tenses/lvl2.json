@@ -1,0 +1,27 @@
+[
+  {
+    "tense": "past-simple",
+    "example": "They opened the presents in the evening.",
+    "forms": [
+      "regular verb + -ed"
+    ],
+    "exercises": [
+      {
+        "type": "cloze",
+        "question": "They ____ the presents in the evening.",
+        "options": [
+          "opened",
+          "ended",
+          "thanked",
+          "colorful"
+        ],
+        "correct": "opened",
+        "targets": {
+          "words": [
+            "presents"
+          ]
+        }
+      }
+    ]
+  }
+]

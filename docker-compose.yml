@@ -1,0 +1,15 @@
+services:
+  glossonaut:
+    build: .
+    image: glossonaut:latest
+    container_name: glossonaut
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+    volumes:
+      - ./public/data:/usr/src/app/public/data
+    restart: unless-stopped
+
+

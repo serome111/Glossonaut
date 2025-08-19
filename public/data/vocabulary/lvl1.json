@@ -1,0 +1,82 @@
+[
+  {
+    "word": "hello",
+    "translations": [
+      "hola"
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "question": "hello",
+        "options": [
+          "hola",
+          "adiós",
+          "gracias",
+          "por favor"
+        ],
+        "correct": "hola",
+        "targets": {
+          "words": [
+            "hello"
+          ]
+        }
+      },
+      {
+        "type": "complete",
+        "question": "She said ____ when she saw me.",
+        "options": [
+          "hello",
+          "goodbye",
+          "please",
+          "thanks"
+        ],
+        "correct": "hello",
+        "targets": {
+          "words": [
+            "hello"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "word": "wake",
+    "translations": [
+      "despertar"
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "question": "wake",
+        "options": [
+          "despertar",
+          "despertarse",
+          "dormir",
+          "soñar"
+        ],
+        "correct": "despertar",
+        "targets": {
+          "words": [
+            "wake"
+          ]
+        }
+      },
+      {
+        "type": "complete",
+        "question": "Please don't ____ the baby.",
+        "options": [
+          "wake",
+          "sleep",
+          "eat",
+          "play"
+        ],
+        "correct": "wake",
+        "targets": {
+          "words": [
+            "wake"
+          ]
+        }
+      }
+    ]
+  }
+]

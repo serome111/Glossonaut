@@ -1,0 +1,82 @@
+[
+  {
+    "phrase": "hello my friend",
+    "translations": [
+      "hola amigo"
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "question": "hello my friend",
+        "options": [
+          "hola amigo",
+          "adiós amigo",
+          "gracias amigo",
+          "por favor amigo"
+        ],
+        "correct": "hola amigo",
+        "targets": {
+          "words": [
+            "hello"
+          ]
+        }
+      },
+      {
+        "type": "complete",
+        "question": "__ my friend",
+        "options": [
+          "Hello",
+          "Bye",
+          "Thanks",
+          "Please"
+        ],
+        "correct": "Hello",
+        "targets": {
+          "words": [
+            "hello"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "phrase": "wake the baby",
+    "translations": [
+      "despertar al bebé"
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "question": "wake the baby",
+        "options": [
+          "despertar al bebé",
+          "despertarse",
+          "acostar al bebé",
+          "alimentar al bebé"
+        ],
+        "correct": "despertar al bebé",
+        "targets": {
+          "words": [
+            "wake"
+          ]
+        }
+      },
+      {
+        "type": "complete",
+        "question": "____ the baby.",
+        "options": [
+          "Wake",
+          "Sleep",
+          "Feed",
+          "Walk"
+        ],
+        "correct": "Wake",
+        "targets": {
+          "words": [
+            "wake"
+          ]
+        }
+      }
+    ]
+  }
+]

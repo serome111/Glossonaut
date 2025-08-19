@@ -1,0 +1,45 @@
+{
+  "mode": "append",
+  "defaultLevel": 2,
+  "items": [
+    {
+      "word": "presents",
+      "translations": ["regalos"],
+      "exercises": [
+        { "type": "translate", "question": "presents", "options": ["regalos","velas","decoraciones","tarde-noche"], "correct": "regalos", "targets": { "words": ["presents"] }},
+        { "type": "complete", "question": "She opened her ____ in the evening.", "options": ["presents","candles","evening","decorated"], "correct": "presents", "targets": { "words": ["presents"] }}
+      ]
+    },
+    {
+      "phrase": "colorful presents",
+      "translations": ["regalos coloridos"],
+      "exercises": [
+        { "type": "translate", "question": "colorful presents", "options": ["regalos coloridos","velas coloridas","tarde-noche","decorado"], "correct": "regalos coloridos", "targets": { "words": ["presents"] } },
+        { "type": "complete", "question": "She opened the colorful ____.", "options": ["presents","candles","evening","decorated"], "correct": "presents", "targets": { "words": ["presents"] } }
+      ]
+    },
+    {
+      "sentence": "The presents were colorful.",
+      "tags": ["party"],
+      "exercises": [
+        { "type": "reorder", "question": ["The","presents","were","colorful","."], "correct": "The presents were colorful.", "targets": { "words": ["presents"] } }
+      ]
+    },
+    {
+      "connector": "until",
+      "sentence": "She didn’t open the presents ____ the evening.",
+      "translations": ["hasta que"],
+      "exercises": [
+        { "type": "complete", "question": "She didn’t open the presents ____ the evening.", "options": ["until","while","since","during"], "correct": "until", "targets": { "words": ["until","presents"] } }
+      ]
+    },
+    {
+      "tense": "past-simple",
+      "example": "They opened the presents in the evening.",
+      "forms": ["regular verb + -ed"],
+      "exercises": [
+        { "type": "cloze", "question": "They ____ the presents in the evening.", "options": ["opened","ended","thanked","colorful"], "correct": "opened", "targets": { "words": ["presents"] } }
+      ]
+    }
+  ]
+}

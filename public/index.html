@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aprender Inglés</title>
+    <link rel="icon" href="/data/pictures/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <!-- Título principal -->
+    <h1 id="main-title">Aprender Inglés</h1>
+
+    <!-- Nivel + Menu (sólo en juego; hidden por defecto) -->
+    <div id="level-menu-container" style="display:none;">
+      <p id="level-display" class="level">Nivel 1</p>
+      <button id="menu-btn">Menu</button>
+    </div>
+
+    <!-- Menú principal: selección de categorías -->
+    <div id="category-selection"></div>
+
+    <!-- Fila de cards extra (Texto, Refuerzo, Practicar errores) -->
+    <div id="extra-cards"></div>
+
+    <!-- Acciones del menú: Estadísticas, Refuerzo, Ver errores -->
+    <div id="menu-actions" style="display:none; gap:10px; justify-content:center; margin:20px 0;"></div>
+
+    <!-- Donde mostrará las estadísticas completas -->
+    <div id="stats-container" style="display:none; text-align:center;"></div>
+
+    <!-- Donde mostrará la lista detallada de errores frecuentes -->
+    <div id="error-list" style="display:none; text-align:center; color:#c62828; margin-top:10px;"></div>
+
+    <!-- Contenedor de preguntas/ejercicios (hidden por defecto) -->
+    <div id="exercise-container" style="display:none;"></div>
+
+    <!-- Texto a lección: input + selección de palabras (hidden por defecto) -->
+    <div id="text-lesson-container" style="display:none; max-width:800px; margin:0 auto;">
+      <!-- Se rellena dinámicamente desde script.js -->
+    </div>
+
+    <!-- Examen de nivel (placement) -->
+    <div id="placement-container" style="display:none; max-width:900px; margin:0 auto;"></div>
+
+    <!-- Importador de datos CEFR (hidden por defecto) -->
+    <div id="import-container" style="display:none; max-width:900px; margin:0 auto;"></div>
+
+  </div>
+  <script src="reinforce.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

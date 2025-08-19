@@ -1,0 +1,54 @@
+[
+  {
+    "connector": "and",
+    "sentence": "Hello ____ welcome to my home.",
+    "translations": [
+      "y"
+    ],
+    "exercises": [
+      {
+        "type": "complete",
+        "question": "Hello ____ welcome to my home.",
+        "options": [
+          "and",
+          "but",
+          "because",
+          "so"
+        ],
+        "correct": "and",
+        "targets": {
+          "words": [
+            "and",
+            "hello"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "connector": "and",
+    "sentence": "Don't wake the baby ____ be quiet.",
+    "translations": [
+      "y"
+    ],
+    "exercises": [
+      {
+        "type": "complete",
+        "question": "Don't wake the baby ____ be quiet.",
+        "options": [
+          "and",
+          "but",
+          "because",
+          "so"
+        ],
+        "correct": "and",
+        "targets": {
+          "words": [
+            "and",
+            "wake"
+          ]
+        }
+      }
+    ]
+  }
+]

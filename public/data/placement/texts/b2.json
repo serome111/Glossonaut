@@ -1,0 +1,82 @@
+[
+  {
+  "level": "B2",
+  "id": "b2_01",
+  "title": "Remote work debate",
+  "text": "While remote work offers flexibility and broader access to talent, some managers argue that it reduces spontaneous collaboration and weakens team identity. Hybrid schedules are an attempt to balance these trade‑offs: quiet, focused work at home and coordinated, in‑person sessions for brainstorming or relationship‑building. However, a hybrid model only works if expectations are explicit. Teams need shared norms about response times, meeting length, and documentation, otherwise people become overloaded by messages and status calls. Tools that support asynchronous updates—recorded demos, written summaries, and clear task boards—can reduce unnecessary meetings and make decision‑making more transparent. Measuring output rather than hours also helps, provided that goals and quality standards are defined. In the end, the debate is less about location and more about clarity, trust, and equitable access to information so no one is disadvantaged by where they work.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_02",
+  "title": "Urban sustainability",
+  "text": "Many cities are investing in renewable energy, efficient public transport, and greener urban design. Installing solar panels on public buildings, electrifying bus fleets, and expanding bike lanes can lower emissions while improving residents’ daily experience. Yet sustainability requires more than infrastructure; it depends on long‑term maintenance, fair pricing, and public trust. If tickets are affordable and routes are reliable, people are more likely to leave their cars at home. Green roofs and pocket parks reduce heat in dense neighborhoods, while updated building codes promote better insulation and lower energy bills. To succeed, city leaders must involve local communities in planning and be transparent about costs and benefits. Sustainable cities are not only cleaner; they are also more resilient, offering safer streets, healthier air, and public spaces where people actually want to spend time.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_03",
+  "title": "Digital privacy choices",
+  "text": "Online services promise convenience, but they also collect data that can be misused or exposed. Users often accept default settings without realizing how much information is shared. A practical approach is to review permissions regularly, disable unnecessary tracking, and enable multi‑factor authentication wherever possible. End‑to‑end encryption protects private conversations, while password managers reduce the risk of reuse across sites. Companies have responsibilities too: they should minimize data collection, publish clear retention policies, and report breaches promptly. Regulation can help set standards, yet informed habits still matter. By treating personal data as something valuable—not just a commodity—we encourage platforms to design with privacy in mind and we reduce the impact when something inevitably goes wrong.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_04",
+  "title": "Managing burnout",
+  "text": "Burnout rarely appears overnight; it builds through constant pressure, blurred boundaries, and the belief that rest is a sign of weakness. Early signs include irritability, trouble sleeping, and a sense that routine tasks require unusual effort. Individuals can protect their energy by planning breaks, limiting after‑hours notifications, and negotiating priorities instead of silently accepting every request. Managers also play a role by setting realistic deadlines and recognizing good work without equating availability with commitment. Access to counseling and peer support helps, but a healthier workload is just as important. When teams discuss capacity openly and review processes that generate unnecessary stress, performance improves and people stay longer.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_05",
+  "title": "Financial literacy at work",
+  "text": "Workplaces increasingly offer financial education because money stress affects concentration and morale. Short workshops on budgeting, debt management, and the basics of investing can make a noticeable difference. Employees learn to build an emergency fund, compare interest rates, and understand how compound growth works in retirement plans. Automatic savings and default enrollment raise participation, but transparency about fees and risk is essential. No tool eliminates uncertainty, yet simple habits—tracking expenses, paying high‑interest debts first, and diversifying investments—help people make steadier choices. When organizations support these habits, they see fewer crises and a more focused, confident workforce.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_06",
+  "title": "Globalization and local culture",
+  "text": "Globalization brings access to music, films, and food from around the world, but it can also pressure small languages and local traditions. Young people may prefer international platforms where a few dominant cultures set trends. Communities respond in creative ways: they host festivals, teach traditional crafts online, and use social media to share stories in their own languages. Tourism can support preservation if visitors are invited to learn respectfully rather than consume quickly. The goal is not to reject global influences but to combine them with local identity, so that cultural exchange enriches rather than replaces what makes a place unique.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_07",
+  "title": "Adaptation versus mitigation",
+  "text": "Climate strategies often divide into mitigation, which reduces future emissions, and adaptation, which prepares communities for present risks. Building sea walls, planting drought‑resistant crops, and redesigning streets to handle heavy rain are examples of adaptation that protect lives now. Mitigation—such as phasing out fossil fuels and improving energy efficiency—prevents worse outcomes later. Funding tends to favor short‑term results, yet both approaches are necessary. Cities can combine them by electrifying transport while creating shaded routes and cooling centers for heat waves. When projects are evaluated not only by cost but also by avoided damage and social benefits, the long‑term value becomes clearer.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_08",
+  "title": "AI in education",
+  "text": "Artificial intelligence can personalize exercises, highlight gaps in understanding, and give teachers faster feedback on student progress. However, it also raises concerns about data privacy, unequal access to devices, and the temptation to let tools do the thinking. Schools that adopt AI successfully set clear rules: students use assistants to practice, not to copy; teachers review automated suggestions rather than accept them blindly; and parents know what data is collected and why. Training for educators is crucial, because technology works best when it supports sound pedagogy. Used carefully, AI can free time for discussion, creativity, and the human parts of learning that software cannot replace.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_09",
+  "title": "Public health communication",
+  "text": "During a health crisis, people need guidance that is timely, clear, and honest about uncertainty. Messages are easier to follow when they use plain language, explain the reasons behind recommendations, and acknowledge what experts still do not know. Trust grows when officials share data sources, correct mistakes quickly, and partner with local leaders who already have community credibility. Visuals—simple charts and infographics—help translate complex information, but they must be consistent across channels to avoid confusion. Good communication cannot replace medical care, yet it can change behavior at scale and save lives.",
+  "source": "internal",
+  "lang": "en"
+  },
+  {
+  "level": "B2",
+  "id": "b2_10",
+  "title": "Starting a small online business",
+  "text": "Launching a small online business is less about a perfect idea and more about testing assumptions quickly. An effective starting point is to define a narrow problem, talk to potential customers, and build a simple landing page to measure interest. Clear unit economics—how much it costs to get a sale and how much profit remains—prevent pleasant surprises from turning into losses. Legal basics like terms of service and refund policies protect both sides. Marketing works better when you pick one or two channels and iterate based on real feedback. Progress may feel slow, but steady improvements and honest metrics lead to a product that people actually want to buy.",
+  "source": "internal",
+  "lang": "en"
+  }
+  ]

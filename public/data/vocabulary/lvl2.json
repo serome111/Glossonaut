@@ -1,0 +1,42 @@
+[
+  {
+    "word": "presents",
+    "translations": [
+      "regalos"
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "question": "presents",
+        "options": [
+          "regalos",
+          "velas",
+          "decoraciones",
+          "tarde-noche"
+        ],
+        "correct": "regalos",
+        "targets": {
+          "words": [
+            "presents"
+          ]
+        }
+      },
+      {
+        "type": "complete",
+        "question": "She opened her ____ in the evening.",
+        "options": [
+          "presents",
+          "candles",
+          "evening",
+          "decorated"
+        ],
+        "correct": "presents",
+        "targets": {
+          "words": [
+            "presents"
+          ]
+        }
+      }
+    ]
+  }
+]

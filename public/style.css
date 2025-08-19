@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #e0f7fa, #80deea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  #app {
+    background: transparent;   /* sin fondo blanco */
+    border-radius: 0;
+    box-shadow: none;
+    padding: 16px 20px;
+    max-width: 1200px;         /* más ancho para cards grandes */
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Panel genérico (glass) */
+  .panel {
+    background: rgba(255,255,255,0.92);
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(15,23,42,0.12);
+    padding: 20px 24px;
+    margin: 0 auto;
+  }
+  .panel h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .panel .help-text {
+    color: #475569;
+    margin-bottom: 14px;
+  }
+
+  /* Fila de controles */
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+
+  /* Dropzone para archivos */
+  .dropzone {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border: 2px dashed #94a3b8;
+    border-radius: 12px;
+    background: rgba(241,245,249,0.7);
+    cursor: pointer;
+    transition: background .2s, border-color .2s, transform .1s;
+    user-select: none;
+  }
+  .dropzone:hover { background: rgba(226,232,240,0.9); }
+  .dropzone.dragover { border-color: #0ea5e9; background: rgba(224,242,254,0.9); transform: translateY(-1px); }
+  .dropzone .file-name { font-size: 14px; color: #334155; opacity: .9; }
+
+  /* Botones secundarios */
+  .btn-ghost {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    color: #0f172a;
+    cursor: pointer;
+    transition: background .2s, border-color .2s;
+  }
+  .btn-ghost:hover { background: #f1f5f9; border-color: #94a3b8; }
+
+  /* Import panel spacing */
+  #import-container .import-panel { max-width: 900px; }
+  h1#main-title {
+    color: #007bff;
+    margin-bottom: 28px;
+    font-size: 40px;
+  }
+  
+  /* Nivel + Menu */
+  #level-menu-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .level {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+  }
+  #menu-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #e0e0e0;
+    cursor: pointer;
+    transition: background .2s;
+  }
+  #menu-btn:hover {
+    background: #bdbdbd;
+  }
+  
+  /* Selector de categoría */
+  #category-selection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  /* Fuerza 5 columnas en desktop ancho */
+  @media (min-width: 1120px) {
+    #category-selection {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  /* Modal alert bonito */
+  .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;z-index:1000}
+  .modal-card{background:#fff;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.2);max-width:520px;width:calc(100% - 32px);padding:20px;text-align:left}
+  .modal-card h3{margin:0 0 6px 0;font-size:20px}
+  .modal-card p{margin:6px 0 16px 0;line-height:1.5}
+  .modal-actions{display:flex;gap:8px;justify-content:flex-end}
+  .btn-primary{background:#1976d2;color:#fff;border:none;border-radius:8px;padding:10px 14px;cursor:pointer}
+  .btn-primary:hover{filter:brightness(.95)}
+#extra-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin: 8px 0 28px;
+}
+  .category-card {
+    cursor: pointer;
+    position: relative;
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 22px rgba(15,23,42,0.10);
+    transition: transform .15s ease, box-shadow .2s ease;
+  }
+  .category-card:hover { transform: translateY(-2px); box-shadow: 0 16px 32px rgba(15,23,42,0.14); }
+  .category-card img { width:100%; height:180px; object-fit:cover; display:block; }
+  .category-card .body { padding: 14px 16px; display:flex; align-items:center; justify-content:space-between; }
+  .category-card .title { font-weight:800; color:#0f172a; font-size: 20px; }
+  .category-card .level { position:absolute; bottom:10px; right:10px; background:#eef2ff; color:#1e40af; padding:6px 10px; border-radius:999px; font-size:12px; font-weight:800; box-shadow: 0 4px 10px rgba(15,23,42,0.12); }
+  
+  /* Ejercicios y estadísticas */
+  #exercise-container,
+  #stats-container {
+    margin-top: 20px;
+  }
+  .instruction {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  .question {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+  button.answer {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    transition: background .2s, color .2s;
+  }
+  button.answer:hover {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  /* Feedback de respuestas */
+.feedback {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  .feedback.correct {
+    color: #2e7d32;    /* verde */
+  }
+  .feedback.incorrect {
+    color: #c62828;    /* rojo */
+  }
+  
+  /* Botón de siguiente */
+  .next-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s;
+  }
+  .next-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Contenedores de reorder */
+.selected-words {
+    min-height: 2em;
+    margin-bottom: 10px;
+  }
+  .unselected-words {
+    margin-bottom: 10px;
+  }
+  
+  /* Palabra seleccionada */
+  .selected-word {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 4px 8px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Botón Refuerzo */
+#reinforce-container button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #ffc107;
+    color: #000;
+    cursor: pointer;
+    transition: background .2s;
+  }
+  #reinforce-container button:hover {
+    background: #e0a800;
+  }
+  
+  #error-list p {
+    font-size: 0.9rem;
+    color: #c62828;
+  }
+
+  #menu-actions button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s;
+  }
+  #menu-actions button:hover {
+    background: #0056b3;
+  }

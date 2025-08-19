@@ -1,0 +1,42 @@
+[
+  {
+    "phrase": "colorful presents",
+    "translations": [
+      "regalos coloridos"
+    ],
+    "exercises": [
+      {
+        "type": "translate",
+        "question": "colorful presents",
+        "options": [
+          "regalos coloridos",
+          "velas coloridas",
+          "tarde-noche",
+          "decorado"
+        ],
+        "correct": "regalos coloridos",
+        "targets": {
+          "words": [
+            "presents"
+          ]
+        }
+      },
+      {
+        "type": "complete",
+        "question": "She opened the colorful ____.",
+        "options": [
+          "presents",
+          "candles",
+          "evening",
+          "decorated"
+        ],
+        "correct": "presents",
+        "targets": {
+          "words": [
+            "presents"
+          ]
+        }
+      }
+    ]
+  }
+]
