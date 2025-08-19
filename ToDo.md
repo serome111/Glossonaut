@@ -1,3 +1,5 @@
+#To Do list
+
 Mejoras rápidas (1–2 días)
 
 Manifest de datos: un public/data/manifest.json con niveles disponibles por categoría para evitar 404 y descubrir niveles dinámicamente.
