@@ -6,7 +6,17 @@
   <title>Aprender Inglés</title>
     <link rel="icon" href="/data/pictures/logo.png" type="image/png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="/style.css" as="style">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    /* CSS crítico mínimo para evitar layout roto antes de cargar style.css */
+    body{margin:0;font-family:Arial,sans-serif;background:#e6f7fb;}
+    #app{max-width:1200px;margin:0 auto;padding:16px 20px;text-align:center}
+    #category-selection{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+    .category-card{background:#fff;border-radius:16px;overflow:hidden}
+    .category-card img{width:100%;height:180px;object-fit:cover;display:block}
+    h1#main-title{font-size:32px;margin:16px 0;color:#1976d2}
+  </style>
 </head>
 <body>
   <div id="app">

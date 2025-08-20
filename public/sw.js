@@ -56,15 +56,18 @@ self.addEventListener('fetch', (event) => {
 
   // Navegación HTML
   if (req.mode === 'navigate' || (req.destination === 'document')) {
-    event.respondWith(
-      fetch(req)
-        .then((res) => {
-          const resClone = res.clone();
-          caches.open(STATIC_CACHE).then((cache) => cache.put('/', resClone));
-          return res;
-        })
-        .catch(() => caches.match('/') || caches.match('/index.html'))
-    );
+    event.respondWith((async () => {
+      try {
+        const networkRes = await fetch(req);
+        const cache = await caches.open(STATIC_CACHE);
+        cache.put(req, networkRes.clone());
+        return networkRes;
+      } catch (_) {
+        return (await caches.match(req))
+            || (await caches.match('/index.html'))
+            || (await caches.match('/'));
+      }
+    })());
     return;
   }
 
