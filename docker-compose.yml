@@ -4,9 +4,9 @@ services:
     image: glossonaut:latest
     container_name: glossonaut
     ports:
-      - "3000:3000"
+      - "3001:3001"
     environment:
-      - PORT=3000
+      - PORT=3001
       - NODE_ENV=production
     volumes:
       - ./public/data:/usr/src/app/public/data

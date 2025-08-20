@@ -13,7 +13,7 @@ COPY public ./public
 COPY server.js ./server.js
 
 # The app listens on PORT (defaults to 3000)
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["npm", "start"]
 
