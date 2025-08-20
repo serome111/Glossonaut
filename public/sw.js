@@ -59,8 +59,11 @@ self.addEventListener('fetch', (event) => {
     event.respondWith((async () => {
       try {
         const networkRes = await fetch(req);
-        const cache = await caches.open(STATIC_CACHE);
-        cache.put(req, networkRes.clone());
+        const copy = networkRes.clone();
+        event.waitUntil((async () => {
+          const cache = await caches.open(STATIC_CACHE);
+          await cache.put(req, copy);
+        })());
         return networkRes;
       } catch (_) {
         return (await caches.match(req))
@@ -77,7 +80,11 @@ self.addEventListener('fetch', (event) => {
       caches.match(req).then((cached) => {
         const fetchPromise = fetch(req)
           .then((networkRes) => {
-            caches.open(RUNTIME_CACHE).then((cache) => cache.put(req, networkRes.clone()));
+            const copy = networkRes.clone();
+            event.waitUntil((async () => {
+              const cache = await caches.open(RUNTIME_CACHE);
+              await cache.put(req, copy);
+            })());
             return networkRes;
           })
           .catch(() => cached);
@@ -95,7 +102,11 @@ self.addEventListener('fetch', (event) => {
       caches.match(req).then((cached) => {
         const fetchPromise = fetch(req)
           .then((networkRes) => {
-            caches.open(STATIC_CACHE).then((cache) => cache.put(req, networkRes.clone()));
+            const copy = networkRes.clone();
+            event.waitUntil((async () => {
+              const cache = await caches.open(STATIC_CACHE);
+              await cache.put(req, copy);
+            })());
             return networkRes;
           })
           .catch(() => cached);
