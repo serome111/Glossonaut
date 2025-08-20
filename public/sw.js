@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'v1.0.0';
+const CACHE_VERSION = 'v1.0.1';
 const STATIC_CACHE = `glossonaut-static-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `glossonaut-runtime-${CACHE_VERSION}`;
 

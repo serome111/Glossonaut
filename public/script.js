@@ -386,6 +386,8 @@ async function loadCategories() {
     const img = document.createElement('img');
     const candidates = imageCandidatesForCategory(cat.id);
     img.loading = 'lazy';
+    img.decoding = 'async';
+    if ('fetchPriority' in img) img.fetchPriority = 'low';
     setImageWithFallback(img, candidates);
     img.alt = cat.name;
     const body = document.createElement('div');
@@ -438,6 +440,9 @@ async function loadCategories() {
     card.className = 'category-card';
     card.tabIndex = 0;
     const img = document.createElement('img');
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    if ('fetchPriority' in img) img.fetchPriority = 'low';
     setImageWithFallback(img, [ex.img, '/data/pictures/default.png']);
     img.alt = ex.title;
     const body = document.createElement('div');
